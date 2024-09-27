@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LANDING PAGE </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+
+
+        header {
+
+            width: 100%;
+            height: 300px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            overflow: hidden;
+            display: flex;
+            /* Usado para alinhar o conteúdo */
+            align-items: flex-start;
+            /* Alinha o conteúdo ao topo */
+            justify-content: center;
+            /* Centraliza o conteúdo horizontalmente */
+            padding-top: 120px;
+            /* Ajuste o padding superior conforme necessário */
+
+        }
+
+
+
+        /* Peguei essa parte do custom do gpt, serve basciamnete para eu conseguir customizar a vontade o meu h1 */
+        .custom-h1 {
+            font-size: 58px;
+            text-align: center;
+            color: #29e6ff;
+        /* o text shadow adiciona uma borda ao texto */
+
+            text-shadow:
+                -1px -1px 0 rgb(0, 0, 0),
+                1px -1px 0 rgba(0, 0, 0, 1),
+                -1px 1px 0 rgba(0, 0, 0, 1),
+                1px 1px 0 rgba(0, 0, 0, 1);
+
+
+
+
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .text-container {
+            margin-bottom: 20px;
+            margin: 25px;
+            max-width: 900px;
+            padding: 20px;
+        }
+
+        .form-box {
+            background-color: rgb(210, 249, 255);
+            border-radius: 15px;
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+            /* o último num se refere a opacidde/intensidade da sombra */
+            padding: 20px;
+            width: 300px;
+            margin: 30px;
+            margin-bottom: 20px;
+
+        }
+
+
+        h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #012327;
+
+        }
+
+        h3 {
+            font-size: 24px;
+            text-align: center;
+            color: #012327;
+            margin-bottom: 25px;
+
+        }
+
+        p {
+            text-align: justify;
+            font-size: 20px;
+
+        }
+
+        body {
+            background-color: rgb(230, 252, 255);
+        }
+
+
+        label {
+            display: block;
+            /* Torna o label um elemento de bloco */
+            margin: 10px 0 5px;
+            /* Define as margens ao redor do label */
+        }
+
+
+        /* Estilização dos inputs */
+        input[type="text"],
+        input[type="number"],
+        input[type="password"],
+        input[type="email"] {
+            width: 100%;
+            height: 30%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 13px;
+            font-size: 14px;
+        }
+
+
+        /* configurações do botão do forms*/
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #1d67c7;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+
+        /* configurações do botão quando o mouse está por cima*/
+        button:hover {
+            background-color: #063b81;
+        }
+
+
+        .img-limitada {
+            width: 100%;
+            /* Largura máxima do card */
+            height: 200px;
+            /* Altura fixa para todas as imagens */
+            object-fit: cover;
+            /* Ajusta a imagem para cobrir o espaço */
+        }
+
+        .card {
+            max-height: 500px;
+        }
+
+
+        .img-borda {
+            border: 5px solid #00ffea;
+            border-radius: 80px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <!-- usar div de colunas para organizar as coisas na page, ex div class="col-md-5" -->
+
+    <!-- HEADERRR -->
+
+    <header
+        style="background-image: url(https://i.ytimg.com/vi/HzOeZDhZt-o/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCIioJDyFIh_vNt1dzlVjnuM1h61A);">
+        <div class="container">
+            <h1 class="custom-h1"> PESCA TOTAL: MELHORES CURSOS DE PESCARIA DA REGIÃO!</h1>
+        </div>
+
+    </header>
+
+
+
+
+    <!-- CONTEÚDO
+     texto a esquerdaaaaa -->
+
+    <div class="row">
+        <div class="col-md-8 mt-5"> 
+            <div class="text-container">
+                <h2><b>SEJA MUITO BEM-VINDO PESCADOR!!!</b></h2> <br>
+                <p> Aqui na <b>PESCA TOTAL</b> oferecemos os melhores cursos de pescaria em toda Santa Catarina!</p>
+                <p> Se você tem interesse na pesca não deixe de fazer seu <b>CADASTRO</b> ao lado! E se tem dúvida, por
+                    que não faz uma aula experimental? É de <b>GRAÇA</b> e não custa absolutamente <b>NADA.</b></p>
+                <p> Possuímos diversos cursos com variados valores e possibildade de parcelamento até <b>12x SEM
+                        JUROS!</b></p>
+                <p><b>E TEM MAIS!</b> Estamos com uma super promoção para os cursos de <b>PESCA COMERCIAL</b> e <b>PESCA
+                        ESPORTIVA</b>, a promoção é válida até 11/11/2024, <b>NÃO PERCA!</b></p>
+                <br>
+                <p> Se deseja conhecer mais sobre o nosso trabalho você pode acessar os links que estão logo abaixo.
+                    Assim você poderá conhcer mais sobre os nossos Professores, metódos de ensino, resultados e muito
+                    mais!</p>
+
+
+
+
+                <br>
+                <p> Lembrando que qualquer <b>dúvida</b> é só entrar em <b>contato</b> em nosso <b>email ou
+                        telefone!</b></p>
+                <br> <br><br>
+
+
+                <img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0d/ff/52/f5.jpg"
+                    title="VENHA PESCAR COM A GENTE!" class="img-borda">
+
+
+               
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <!-- FORMULÁRIO DE CADASTRO -->
+
+
+
+        <div class="col-md-4 mt-5"> <!-- Formulário à direita -->
+            <div class="form-container">
+                <div class="form-box">
+
+                    <h2>Cadastre-se AGORA!</h2>
+                    <h3>E RECEBA UMA AULA EXPERIMENTAL!</h3>
+
+                    <form id="cadastro">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" required>
+
+                        <label for="sobrenome">Sobrenome:</label>
+                        <input type="text" id="sobrenome" required>
+
+                        <label for="CEP">CEP:</label>
+                        <input type="number" id="CEP" required>
+
+                        <label for="endereço">Endereço Completo (rua, bairro e nº):</label>
+                        <input type="text" id="endereço" required>
+
+                        <label for="estado">Estado:</label>
+                        <input type="text" id="estado" required>
+
+                        <label for="pais">País:</label>
+                        <input type="text" id="pais" required>
+
+                        <label for="telefone">Telefone:</label>
+                        <input type="number" id="telefone" required>
+
+                        <label for="idade">Idade:</label>
+                        <input type="number" id="idade" required>
+
+                        <label for="curso">Qual dos nossos cursos maravilhosos você deseja?</label>
+                        <select class="form-control" id="curso" required>
+                            <option value="curso" disabled selected>Escolha!</option>
+                            <option value="recreativa">Pescaria Recrativa</option>
+                            <option value="esportiva">Pescaria Esportiva</option>
+                            <option value="comercial">Pescaria Comercial</option>
+                            <option value="doce">Pescaria em Água Doce</option>
+                            <option value="salgada">Pescaria em Água Salgada</option>
+                        </select>
+
+                        <label for="pagamento">Qual seria a forma de pagamento?</label>
+                        <select class="form-control" id="pagamento" required>
+                            <option value="pagamento" disabled selected>Escolha!</option>
+                            <option value="dinheiro">Dinheiro</option>
+                            <option value="pix">Pix</option>
+                            <option value="cartao_deb">Cartão de Débito</option>
+                            <option value="cartao_cred">Cartão de Crédito</option>
+                        </select>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" required>
+
+                        <label for="senha">Crie uma senha:</label>
+                        <input type="password" id="senha" required>
+
+                        <label for="confirmar_senha">Confirme a sua senha:</label>
+                        <input type="password" id="confirmar_senha" required>
+
+                        <button type="submit">INSCREVA-SE!</button>
+                    </form>
+                    <p id="message"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- CARDSSSSSS -->
+
+    <br>
+
+    <div class="row card-container">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://portalmatogrosso.com.br/wp-content/uploads/2023/06/0eb1f856fc6cc9888f40f6e8de3909ea.jpeg"
+                    class="card-img-top img-limitada" alt="Imagem do Card">
+                <div class="card-body">
+                    <h5 class="card-title"> CONHEÇA OS NOSSOS FENOMENAIS PROFESORES!</h5>
+                    <p class="card-text"> As maiores lendas da pesca estão prontas para te ensinar a verdadeira arte da
+                        pescaria!</p>
+                    <a href="https://fishingsun.com/a/blog/11-most-famous-fishermen-in-the-world-you-should-know-by-heart"
+                        class="btn btn-primary">VEJA!</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://pescaecia.com.br/wp-content/uploads/2019/01/73519-675x1024.jpg"
+                    class="card-img-top img-limitada">
+                <div class="card-body">
+                    <h5 class="card-title">VEJA OS MAIORES FEITOS DE NOSSOS ALUNOS!</h5>
+                    <p class="card-text"> O nosso curso cria verdadeiros pescadores, conheça alguns dos feitos de nossos
+                        alunos.</p>
+                    <a href="https://pescaecia.com.br/2019/01/07/maiores-recordes-mundiais-da-pesca/"
+                        class="btn btn-primary">VEJA!</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="data:image/png;base64,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"
+                    class="card-img-top img-limitada">
+                <div class="card-body">
+                    <h5 class="card-title">CONHEÇA UM POUCO DE COMO TRABALHAMOS!</h5>
+                    <p class="card-text">A pesca pode ser muito radical dependendo de como você a pratica!</p>
+                    <a href="https://youtu.be/rS9nJf4-X20?si=Pt_Nbdph82pf89xc" class="btn btn-primary">VEJA!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- FOOOTERRRRR -->
+
+    <footer class="footer bg-dark text-white mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 mt-3">
+
+                    <h5>Sobre Nós</h5>
+                    <p>Nós da PESCA TOTAL somos uma instituição de ensino focado na arte da pesca e suas influências.
+                    </p>
+
+                </div>
+                <div class="col-md-2 mt-3">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://pescariabrava.sc.gov.br/" class="text-white">Home</a></li>
+                        <li><a href="https://www.youtube.com/playlist?list=PLQtKWvsWFC-Bo9201orXPxM3uhb6NHZiS"
+                                class="text-white">About</a></li>
+                        <li><a href="https://pescariabrava.sc.gov.br/contato/" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <h5>Contato</h5>
+                    <p>Email:amamospesca@gmail.com</p>
+                    <p>Telefone:(99)02000-2060</p>
+                </div>
+            </div>
+            <div class="text-center py-3 mt-10">
+                <small>&copy; 2024 Your Company. All rights reserved.</small>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- SCRIPTSSSSSSSSSSS -->
+
+
+    <!-- Código que impede o envio do formulário se as senhas não baterem e mostra uma mensagem-->
+    <script>
+        document.getElementById('cadastro').addEventListener('submit', function (event) {
+
+
+            const password = document.getElementById('senha').value;
+            const confirmPassword = document.getElementById('confirmar_senha').value;
+            const messageDiv = document.getElementById('message');
+
+            if (password === confirmPassword) {
+                messageDiv.innerHTML = '<div class="alert alert-success">Cadastro realizado com sucesso!</div>';
+                // Aqui pode fazer a lógica de envio
+            } else {
+                event.preventDefault();  /*Impede o comportamento padrão do formulário*/
+                messageDiv.innerHTML = '<div class="alert alert-danger">As senhas não correspondem.</div>';
+            }
+        });
+    </script>
+
+    <!-- LINKS BOOTSTRAP -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+
+</body>
+
+</html>
